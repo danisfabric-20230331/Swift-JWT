@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.watchos.deployment_target = "4.0"
   s.source       = { :git => "https://github.com/Kitura/Swift-JWT.git", :tag => s.version }
   s.source_files  = "Sources/**/*.swift"
-  s.dependency 'BlueRSA', '~> 1.0.200'
+  s.dependency 'BlueRSA'
   s.dependency 'BlueCryptor', '~> 2.0.1'
   s.dependency 'BlueECC', '~> 1.2.200'
   s.dependency 'LoggerAPI', '~> 2.0.0'
